@@ -69,3 +69,4 @@ You should now see two windows like this:
 - Framebuffer Display & Dithering Code: [geekmaster on the MobileRead Forums](https://www.mobileread.com/forums/showthread.php?t=177455)
 - C Compiler Toolchain: [KMC Kindle SDK](https://github.com/KindleModding/kindle-sdk) & [KOReader cross-compile toolchains](https://github.com/koreader/koxtoolchain)
 - Finger Icon: [inspire-studio on Pixabay](https://pixabay.com/vectors/touch-digital-icon-finger-press-6602643/)
+- Zachary Powell (https://github.com/devwithzachary/kindle-touch-doom/)
