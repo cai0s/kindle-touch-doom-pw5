@@ -406,7 +406,8 @@ int main(int argc, char **argv) {
   printf("Compiled for PC!\n");
 #endif
 
-  addButton(BTN_ENTER, 380, 505, 40, 40, KEY_ENTER);
+  //600 × 800
+  /*addButton(BTN_ENTER, 380, 505, 40, 40, KEY_ENTER);
   addButton(BTN_ESCAPE, 20, 20, 40, 40, KEY_ESCAPE);
   addButton(BTN_LEFT, 20, 500, 40, 40, KEY_LEFTARROW);
   addButton(BTN_RIGHT, 100, 500, 40, 40, KEY_RIGHTARROW);
@@ -415,7 +416,19 @@ int main(int argc, char **argv) {
   addButton(BTN_FIRE, 740, 500, 40, 40, KEY_FIRE);
   addButton(BTN_USE, 690, 500, 40, 40, KEY_USE);
   addButton(BTN_Y, 355, 550, 40, 20, 'y');
-  addButton(BTN_N, 405, 550, 40, 20, 'n');
+  addButton(BTN_N, 405, 550, 40, 20, 'n');*/
+
+  //1246 × 1648
+  addButton(BTN_ENTER, 726, 993, 116, 114, KEY_ENTER);
+  addButton(BTN_ESCAPE, 23, 23, 116, 114, KEY_ESCAPE);
+  addButton(BTN_LEFT, 23, 967, 116, 114, KEY_LEFTARROW);
+  addButton(BTN_RIGHT, 256, 967, 116, 114, KEY_RIGHTARROW);
+  addButton(BTN_UP, 139, 853, 116, 114, KEY_UPARROW);
+  addButton(BTN_DOWN, 139, 1081, 116, 114, KEY_DOWNARROW);
+  addButton(BTN_FIRE, 1510, 967, 116, 114, KEY_FIRE);
+  addButton(BTN_USE, 1336, 967, 116, 114, KEY_USE);
+  addButton(BTN_Y, 581, 1118, 116, 57, 'y');
+  addButton(BTN_N, 872, 1118, 116, 57, 'n');
 
   gmlib(GMLIB_INIT);
 
